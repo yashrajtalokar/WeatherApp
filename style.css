@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    background: linear-gradient(#D9AFD9,#97D9E1);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 500px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.errorMsg{
+    display: none;
+    font-weight: bolder;
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: rgb(223, 49, 49);
+    text-align: center;
+
+}
+
+.search > input{
+    outline: 0;
+    border: 0;
+    width: 280px;
+    padding: 1rem;
+    border-radius: 50px;
+}
+.search > button{
+    border: 0;
+    outline: 0;
+    padding: 0.4rem;
+    width: 3rem;
+    border-radius: 50px;
+}
+.search > button > img{
+    width: 2rem;
+    cursor: pointer;
+}
+.details{
+    display: none;
+    text-align: center;
+}
+.details > h1,span{
+    font-size: 3rem;
+}
+.details p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.details > img{
+    margin-top: 2rem;
+}
+
+.otherDetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+    padding: 2rem 1rem;
+}
+
+.otherDetails .left,
+.otherDetails .right {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.otherDetails h5 {
+    font-size: 1.4rem;
+}
+.otherDetails p {
+    font-size: 1rem;
+    color: #202020;
+}
+
+.otherDetails > .left > img{
+    width: 3.5rem;
+    mix-blend-mode: multiply;
+}
+
+.otherDetails > .right > img{
+    width: 3.5rem;
+    mix-blend-mode: multiply;
+}
