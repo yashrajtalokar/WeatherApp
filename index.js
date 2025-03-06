@@ -1,4 +1,4 @@
-const key= config.WEATHER_API_KEY;
+const key = window.ENV.WEATHER_API_KEY;
 const URL = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
