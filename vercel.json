@@ -1,8 +1,5 @@
 {
-    "public": true,
-    "env": {
-      "WEATHER_API_KEY": "80e193d24cb5029cf034bcde9a542092"
+    "public":{
+        "env":["WEATHER_API_KEY"]
     }
-  }
-  
-  
+}
